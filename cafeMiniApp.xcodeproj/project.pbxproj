@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBC51F952AB89D4800173CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC51F942AB89D4800173CAE /* AppDelegate.swift */; };
+		BBC51F972AB89D4800173CAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC51F962AB89D4800173CAE /* SceneDelegate.swift */; };
+		BBC51F992AB89D4800173CAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC51F982AB89D4800173CAE /* ViewController.swift */; };
+		BBC51F9C2AB89D4800173CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC51F9A2AB89D4800173CAE /* Main.storyboard */; };
+		BBC51F9F2AB89D4800173CAE /* cafeMiniApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BBC51F9D2AB89D4800173CAE /* cafeMiniApp.xcdatamodeld */; };
+		BBC51FA12AB89D4A00173CAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC51FA02AB89D4A00173CAE /* Assets.xcassets */; };
+		BBC51FA42AB89D4A00173CAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC51FA22AB89D4A00173CAE /* LaunchScreen.storyboard */; };
+		BBC51FAF2AB89D4A00173CAE /* cafeMiniAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC51FAE2AB89D4A00173CAE /* cafeMiniAppTests.swift */; };
+		BBC51FB92AB89D4A00173CAE /* cafeMiniAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC51FB82AB89D4A00173CAE /* cafeMiniAppUITests.swift */; };
+		BBC51FBB2AB89D4A00173CAE /* cafeMiniAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC51FBA2AB89D4A00173CAE /* cafeMiniAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBC51FAB2AB89D4A00173CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBC51F892AB89D4800173CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBC51F902AB89D4800173CAE;
+			remoteInfo = cafeMiniApp;
+		};
+		BBC51FB52AB89D4A00173CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBC51F892AB89D4800173CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBC51F902AB89D4800173CAE;
+			remoteInfo = cafeMiniApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBC51F912AB89D4800173CAE /* cafeMiniApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cafeMiniApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC51F942AB89D4800173CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBC51F962AB89D4800173CAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BBC51F982AB89D4800173CAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBC51F9B2AB89D4800173CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBC51F9E2AB89D4800173CAE /* cafeMiniApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cafeMiniApp.xcdatamodel; sourceTree = "<group>"; };
+		BBC51FA02AB89D4A00173CAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBC51FA32AB89D4A00173CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBC51FA52AB89D4A00173CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC51FAA2AB89D4A00173CAE /* cafeMiniAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cafeMiniAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC51FAE2AB89D4A00173CAE /* cafeMiniAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cafeMiniAppTests.swift; sourceTree = "<group>"; };
+		BBC51FB42AB89D4A00173CAE /* cafeMiniAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cafeMiniAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC51FB82AB89D4A00173CAE /* cafeMiniAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cafeMiniAppUITests.swift; sourceTree = "<group>"; };
+		BBC51FBA2AB89D4A00173CAE /* cafeMiniAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cafeMiniAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBC51F8E2AB89D4800173CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC51FA72AB89D4A00173CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC51FB12AB89D4A00173CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBC51F882AB89D4800173CAE = {
+			isa = PBXGroup;
+			children = (
+				BBC51F932AB89D4800173CAE /* cafeMiniApp */,
+				BBC51FAD2AB89D4A00173CAE /* cafeMiniAppTests */,
+				BBC51FB72AB89D4A00173CAE /* cafeMiniAppUITests */,
+				BBC51F922AB89D4800173CAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBC51F922AB89D4800173CAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBC51F912AB89D4800173CAE /* cafeMiniApp.app */,
+				BBC51FAA2AB89D4A00173CAE /* cafeMiniAppTests.xctest */,
+				BBC51FB42AB89D4A00173CAE /* cafeMiniAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBC51F932AB89D4800173CAE /* cafeMiniApp */ = {
+			isa = PBXGroup;
+			children = (
+				BBC51F942AB89D4800173CAE /* AppDelegate.swift */,
+				BBC51F962AB89D4800173CAE /* SceneDelegate.swift */,
+				BBC51F982AB89D4800173CAE /* ViewController.swift */,
+				BBC51F9A2AB89D4800173CAE /* Main.storyboard */,
+				BBC51FA02AB89D4A00173CAE /* Assets.xcassets */,
+				BBC51FA22AB89D4A00173CAE /* LaunchScreen.storyboard */,
+				BBC51FA52AB89D4A00173CAE /* Info.plist */,
+				BBC51F9D2AB89D4800173CAE /* cafeMiniApp.xcdatamodeld */,
+			);
+			path = cafeMiniApp;
+			sourceTree = "<group>";
+		};
+		BBC51FAD2AB89D4A00173CAE /* cafeMiniAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBC51FAE2AB89D4A00173CAE /* cafeMiniAppTests.swift */,
+			);
+			path = cafeMiniAppTests;
+			sourceTree = "<group>";
+		};
+		BBC51FB72AB89D4A00173CAE /* cafeMiniAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBC51FB82AB89D4A00173CAE /* cafeMiniAppUITests.swift */,
+				BBC51FBA2AB89D4A00173CAE /* cafeMiniAppUITestsLaunchTests.swift */,
+			);
+			path = cafeMiniAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBC51F902AB89D4800173CAE /* cafeMiniApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC51FBE2AB89D4A00173CAE /* Build configuration list for PBXNativeTarget "cafeMiniApp" */;
+			buildPhases = (
+				BBC51F8D2AB89D4800173CAE /* Sources */,
+				BBC51F8E2AB89D4800173CAE /* Frameworks */,
+				BBC51F8F2AB89D4800173CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cafeMiniApp;
+			productName = cafeMiniApp;
+			productReference = BBC51F912AB89D4800173CAE /* cafeMiniApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBC51FA92AB89D4A00173CAE /* cafeMiniAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC51FC12AB89D4A00173CAE /* Build configuration list for PBXNativeTarget "cafeMiniAppTests" */;
+			buildPhases = (
+				BBC51FA62AB89D4A00173CAE /* Sources */,
+				BBC51FA72AB89D4A00173CAE /* Frameworks */,
+				BBC51FA82AB89D4A00173CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBC51FAC2AB89D4A00173CAE /* PBXTargetDependency */,
+			);
+			name = cafeMiniAppTests;
+			productName = cafeMiniAppTests;
+			productReference = BBC51FAA2AB89D4A00173CAE /* cafeMiniAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBC51FB32AB89D4A00173CAE /* cafeMiniAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC51FC42AB89D4A00173CAE /* Build configuration list for PBXNativeTarget "cafeMiniAppUITests" */;
+			buildPhases = (
+				BBC51FB02AB89D4A00173CAE /* Sources */,
+				BBC51FB12AB89D4A00173CAE /* Frameworks */,
+				BBC51FB22AB89D4A00173CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBC51FB62AB89D4A00173CAE /* PBXTargetDependency */,
+			);
+			name = cafeMiniAppUITests;
+			productName = cafeMiniAppUITests;
+			productReference = BBC51FB42AB89D4A00173CAE /* cafeMiniAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBC51F892AB89D4800173CAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BBC51F902AB89D4800173CAE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BBC51FA92AB89D4A00173CAE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BBC51F902AB89D4800173CAE;
+					};
+					BBC51FB32AB89D4A00173CAE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BBC51F902AB89D4800173CAE;
+					};
+				};
+			};
+			buildConfigurationList = BBC51F8C2AB89D4800173CAE /* Build configuration list for PBXProject "cafeMiniApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBC51F882AB89D4800173CAE;
+			productRefGroup = BBC51F922AB89D4800173CAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBC51F902AB89D4800173CAE /* cafeMiniApp */,
+				BBC51FA92AB89D4A00173CAE /* cafeMiniAppTests */,
+				BBC51FB32AB89D4A00173CAE /* cafeMiniAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBC51F8F2AB89D4800173CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC51FA42AB89D4A00173CAE /* LaunchScreen.storyboard in Resources */,
+				BBC51FA12AB89D4A00173CAE /* Assets.xcassets in Resources */,
+				BBC51F9C2AB89D4800173CAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC51FA82AB89D4A00173CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC51FB22AB89D4A00173CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBC51F8D2AB89D4800173CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC51F992AB89D4800173CAE /* ViewController.swift in Sources */,
+				BBC51F9F2AB89D4800173CAE /* cafeMiniApp.xcdatamodeld in Sources */,
+				BBC51F952AB89D4800173CAE /* AppDelegate.swift in Sources */,
+				BBC51F972AB89D4800173CAE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC51FA62AB89D4A00173CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC51FAF2AB89D4A00173CAE /* cafeMiniAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC51FB02AB89D4A00173CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC51FBB2AB89D4A00173CAE /* cafeMiniAppUITestsLaunchTests.swift in Sources */,
+				BBC51FB92AB89D4A00173CAE /* cafeMiniAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBC51FAC2AB89D4A00173CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBC51F902AB89D4800173CAE /* cafeMiniApp */;
+			targetProxy = BBC51FAB2AB89D4A00173CAE /* PBXContainerItemProxy */;
+		};
+		BBC51FB62AB89D4A00173CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBC51F902AB89D4800173CAE /* cafeMiniApp */;
+			targetProxy = BBC51FB52AB89D4A00173CAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBC51F9A2AB89D4800173CAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBC51F9B2AB89D4800173CAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBC51FA22AB89D4A00173CAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBC51FA32AB89D4A00173CAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBC51FBC2AB89D4A00173CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBC51FBD2AB89D4A00173CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBC51FBF2AB89D4A00173CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34Y5C4NQG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cafeMiniApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.cafeMiniApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBC51FC02AB89D4A00173CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34Y5C4NQG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cafeMiniApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.cafeMiniApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBC51FC22AB89D4A00173CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34Y5C4NQG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.cafeMiniAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cafeMiniApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cafeMiniApp";
+			};
+			name = Debug;
+		};
+		BBC51FC32AB89D4A00173CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34Y5C4NQG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.cafeMiniAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cafeMiniApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cafeMiniApp";
+			};
+			name = Release;
+		};
+		BBC51FC52AB89D4A00173CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34Y5C4NQG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.cafeMiniAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cafeMiniApp;
+			};
+			name = Debug;
+		};
+		BBC51FC62AB89D4A00173CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34Y5C4NQG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.cafeMiniAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cafeMiniApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBC51F8C2AB89D4800173CAE /* Build configuration list for PBXProject "cafeMiniApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC51FBC2AB89D4A00173CAE /* Debug */,
+				BBC51FBD2AB89D4A00173CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC51FBE2AB89D4A00173CAE /* Build configuration list for PBXNativeTarget "cafeMiniApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC51FBF2AB89D4A00173CAE /* Debug */,
+				BBC51FC02AB89D4A00173CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC51FC12AB89D4A00173CAE /* Build configuration list for PBXNativeTarget "cafeMiniAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC51FC22AB89D4A00173CAE /* Debug */,
+				BBC51FC32AB89D4A00173CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC51FC42AB89D4A00173CAE /* Build configuration list for PBXNativeTarget "cafeMiniAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC51FC52AB89D4A00173CAE /* Debug */,
+				BBC51FC62AB89D4A00173CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BBC51F9D2AB89D4800173CAE /* cafeMiniApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BBC51F9E2AB89D4800173CAE /* cafeMiniApp.xcdatamodel */,
+			);
+			currentVersion = BBC51F9E2AB89D4800173CAE /* cafeMiniApp.xcdatamodel */;
+			path = cafeMiniApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BBC51F892AB89D4800173CAE /* Project object */;
+}
